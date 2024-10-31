@@ -1,5 +1,5 @@
 
-Code of the Paper: Time-Since-Infection Model for Hospitalization and Incidence Data
+Code of the Paper: Unlocking the Power of Time-Since-Infection Models: Data Augmentation for Improved Instantaneous Reproduction Number Estimation
 ==============================================
   
   
@@ -16,7 +16,7 @@ This README is prepared for journal peer review of the "Time-Since-Infection Mod
 
 The proposed MCEM algorithm is proposed for simultaneously estimating the instantaneous reproduction number, and the generation time (infectiousness profile and hospitalization profile) of a transmission disease that meets the basic assumptions of the time-since-infection model with daily incident cases, covariates data, and hospitalization data. It allows the time-since-infection model to incorporate hospitalization data when complicated data structures are involved.
 
-## Data structure (Figure 2)
+## Data structure 
 ![](Figure1_3row.png)
 
 ## Package Requirements
@@ -30,7 +30,10 @@ Code for simulation can be find the file "R Code" and "sampled data"
 
 ##  Code for Real Data
 Code for simulation can be find the file "Covid_code_real_data_organize", where the precleaned data contains data of four metropolitans, 
-  #Miami-Dade 12086  #Wayne MI 26163  #NYC NY 36061  #COOK IL 17031
+  #Miami-Dade 12086
+  #Wayne MI 26163
+  #NYC NY 36061
+  #COOK IL 17031
 
 ## How to run QSOEID on your data?
 
