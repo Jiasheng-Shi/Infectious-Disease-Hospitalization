@@ -12,7 +12,7 @@ Code of the Paper: Unlocking the Power of Time-Since-Infection Models: Data Augm
 6. How to run the Algorithm on your data?
   
 ## Description
-This README is prepared for journal peer review of the "Time-Since-Infection Model for Hospitalization and Incidence Data" paper. 
+This README is prepared for journal peer review of the "Unlocking the Power of Time-Since-Infection Models: Data Augmentation for Improved Instantaneous Reproduction Number Estimation" paper. 
 
 The proposed MCEM algorithm is proposed for simultaneously estimating the instantaneous reproduction number, and the generation time (infectiousness profile and hospitalization profile) of a transmission disease that meets the basic assumptions of the time-since-infection model with daily incident cases, covariates data, and hospitalization data. It allows the time-since-infection model to incorporate hospitalization data when complicated data structures are involved.
 
