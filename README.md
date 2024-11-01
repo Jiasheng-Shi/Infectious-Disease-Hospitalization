@@ -22,7 +22,7 @@ The proposed refined TSI model integrates hospitalization data and breaks the re
 ## Package Requirements
 - A database with clear and consistent variable names
 - R version: R (>= 4.3.1)
-- On Mac: download and install [EpiEstim](https://CRAN.R-project.org/package=EpiEstim), [dlnm](https://CRAN.R-project.org/package=dlnm), [tsModel](https://CRAN.R-project.org/package=tsModel), [ggplot2](https://CRAN.R-project.org/package=ggplot2), [nlme](https://CRAN.R-project.org/package=nlme), [sjstats](https://CRAN.R-project.org/package=sjstats), [corrplot](https://CRAN.R-project.org/package=corrplot), [pracma](https://CRAN.R-project.org/package=pracma), [dplyr](https://CRAN.R-project.org/package=dplyr)
+- On Mac: download and install [EpiEstim](https://CRAN.R-project.org/package=EpiEstim), [dlnm](https://CRAN.R-project.org/package=dlnm), [tsModel](https://CRAN.R-project.org/package=tsModel), [ggplot2](https://CRAN.R-project.org/package=ggplot2), [nlme](https://CRAN.R-project.org/package=nlme), [sjstats](https://CRAN.R-project.org/package=sjstats), [corrplot](https://CRAN.R-project.org/package=corrplot), [pracma](https://CRAN.R-project.org/package=pracma), [dplyr](https://CRAN.R-project.org/package=dplyr), [mvtnorm](https://CRAN.R-project.org/package=mvtnorm), [mc2d](https://CRAN.R-project.org/package=mc2d), [TTR](https://CRAN.R-project.org/package=TTR), [numDeriv](https://CRAN.R-project.org/package=numDeriv)
 ## Run QSOEID example with code
 
 ##  Code for Simulation 

@@ -423,12 +423,6 @@ library(parallel)
   
   barcharts2
   
-  #ggsave(
-  #width = 1045,        
-  #height = 437,       
-  #units = "px"     
-  #dpi = 300         
-  #)
 }
 
 #saveRDS(list(simuRes1,simuRes2,simuResIni,I,H,Z,barcharts1,barcharts2), file='HosCovidCase1.RDS')
