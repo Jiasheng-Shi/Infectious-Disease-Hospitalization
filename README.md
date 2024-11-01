@@ -5,19 +5,25 @@ Code of the Paper "Unlocking the Power of Time-Since-Infection Models: Data Augm
   
 ## Outline
 1. Description
-2. Sudo Algorithm
-3. Package requirements
+2. Data Structure and Results
+3. Package Requirements
 4. Code for Simulation 
 5. Code for Real Data
-6. How to run the Algorithm on your data?
+6. How to run this MCEM algorithm on your data?
   
 ## Description
 This README is prepared for journal peer review of the "Unlocking the Power of Time-Since-Infection Models: Data Augmentation for Improved Instantaneous Reproduction Number Estimation" paper. 
 
+![Proposed Algorithm](hospitalization_RNN.jpg)
+
 The proposed refined TSI model integrates hospitalization data and breaks the reliance on incidence data only. The correspondingly proposed MCEM algorithm builds on a composite likelihood approach and is proposed for simultaneously estimating the instantaneous reproduction number and the generation time (infectiousness profile and hospitalization propensity) of a transmission disease that meets the basic assumptions of the time-since-infection model with daily incident cases, covariates data (risk factors), and hospitalization data. It contributes to the field by unlocking the potential of TSI models through data augmentation, which refines real-time estimation of Rt, enables the estimation of hospitalization-related parameters previously accessible primarily through contact tracing, and facilitates analysis of associations between risk factors and disease transmission dynamics. 
 
-## Data structure 
-![](Figure1_3row.png)
+## Data Structure and Results
+![Data Structure](Figure1_3row.png)
+
+![Results](Case_1_revision_wdw7.jpeg)
+
+![Results](Case4EstR.jpeg)
 
 ## Package Requirements
 - A database with clear and consistent variable names
