@@ -26,7 +26,7 @@ The proposed refined TSI model integrates hospitalization data and breaks the re
 ## Run QSOEID example with code
 
 ##  Code for Simulation 
-Code for simulation can be found in the file "R Code" and "sampled data"
+Code for simulation can be found in the file "R Code" and "sampled data", one illustrational code is "hospitalization_Case1_main_function.R".
 
 ##  Code for Real Data
 Code for simulation can be found in the file "Covid_code_real_data_organize", where the precleaned data (only part of the real data is shared due to privacy) contains data from four metropolitans, 
@@ -37,5 +37,5 @@ Code for simulation can be found in the file "Covid_code_real_data_organize", wh
 
 ## How to run this MCEM algorithm on your data?
 
-* Get the data ready, which requires no missing values and clear variable names. 
+* Get the data ready, which requires no missing values and clear variable names, one of the exampled data can be found in the file "sampled data". 
 * Set the tunning parameters `NoCov, T, R_0, I_0` so the model is specified. The input data includes covariates Z, being a (T \times NoCov) matrix, incident cases I, and hospitalization H, both being a (1 \times T) matrix. 
