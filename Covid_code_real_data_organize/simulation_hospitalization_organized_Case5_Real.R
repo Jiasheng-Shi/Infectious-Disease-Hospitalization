@@ -780,15 +780,12 @@ saveRDS(BootResSave,file="BootResSave.RDS")
     for (r in 1:Td[countyi]) {
       reg.dat[reg.dat$fips==reg.dat.summarize$fips[countyi],]$BL1[(r+31)]=min(BootEstR[[countyi]][r,])
       reg.dat[reg.dat$fips==reg.dat.summarize$fips[countyi],]$BU1[(r+31)]=max(BootEstR[[countyi]][r,])
-      reg.dat[reg.dat$fips==reg.dat.summarize$fips[countyi],]$BL2[(r+31)]=sort(BootEstR[[countyi]][r,])[2]
-      reg.dat[reg.dat$fips==reg.dat.summarize$fips[countyi],]$BU2[(r+31)]=sort(BootEstR[[countyi]][r,])[9]
+      reg.dat[reg.dat$fips==reg.dat.summarize$fips[countyi],]$BL2[(r+31)]=sort(BootEstR[[countyi]][r,])
+      reg.dat[reg.dat$fips==reg.dat.summarize$fips[countyi],]$BU2[(r+31)]=sort(BootEstR[[countyi]][r,])
     }
   }
   
   reg.dat.gg=reg.dat[reg.dat$date>=as.Date('2021-01-01','%Y-%m-%d') ,]
-  
-  reg.dat.gg$BL1=reg.dat.gg$BL1-rep(runif(4,min=0,max=0.05),each=nrow(reg.dat.gg)/4)
-  reg.dat.gg$BU2=reg.dat.gg$BU2+rep(runif(4,min=0,max=0.05),each=nrow(reg.dat.gg)/4)
   
   reg.dat.gg <-rbind(reg.dat.gg[,c(2,3,9,10,13)], reg.dat.gg[,c(2,3,9,10,13)])
   reg.dat.gg[(1+nrow(reg.dat.gg)/2):(nrow(reg.dat.gg)), 3] <- rep(1,(nrow(reg.dat.gg)/2))
